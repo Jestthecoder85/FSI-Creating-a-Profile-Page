@@ -1,7 +1,7 @@
 
 let content = document.querySelector('.js-generated.content')
 
-let header = document.createElement('h1')
+let = document.createElement('h1')
 header.setAttribute('class', 'dog-name')
 header.append('Rizzo')
 content.append(header)
@@ -19,4 +19,7 @@ let dogDetails = document.createElement('div')
 dogDetails.setAttribute('class', 'dog-details')
 content.append(dogDetails)
 
+let header3 = document.createElement('h3')
+header3.append('Description')
 
+ 
