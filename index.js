@@ -29,6 +29,19 @@ She always acts as though any stranger she meets will harm her, and
 dislikes other animals.`)
 dogDetails.append(pTag)
 
-let header3 = document.createElement('h3')
-header3.append('Feeding Times:')
-dogDetails.append(header3)
+let header4 = document.createElement('h3')
+header4.append('Feeding Times:')
+dogDetails.append(header4)
+
+let ul = document.createElement('ul')
+
+let times = [ '9:00 am', '12:00 pm', '5:00 pm' ]
+
+for(let i = 0; i < times.length; i++) {
+    let li = document.createElement('li');
+    li.textContent = times[i]
+    ul.append(li)
+
+}
+
+dogDetails.append(ul)
